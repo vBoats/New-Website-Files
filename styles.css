@@ -11,11 +11,21 @@
 }
 
 .side-bar {
+  flex: 12;
+  
+  border-right: 1px solid black;
+}
+
+.link {
   flex: 10;
-  border-right: 1px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.rest-of-side-bar {
+  flex: 6;
 }
 
 .rest-of-page {
-  flex: 90;
+  flex: 88;
   background-color: #FFFFFF;
 }
