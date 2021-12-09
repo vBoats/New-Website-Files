@@ -12,7 +12,7 @@
 
 .side-bar {
   flex: 10;
-  background-color: #000000;
+  border-right: 1px;
 }
 
 .rest-of-page {
