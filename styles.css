@@ -39,3 +39,20 @@ h2 {
   flex: 88;
   background-color: #FFFFFF;
 }
+.survey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.bottom-of-survey {
+  flex: 1;
+}
+.survey-question {
+  flex: 10;
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: serif;
+  font-style: italic;
+
+}
