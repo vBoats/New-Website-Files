@@ -6,8 +6,9 @@
 
 .main {
   display: flex;
+  flex-direction: row;
   height: 1440px;
-  width: 100vw;
+  width: 1920px;
 }
 
 .side-bar {
