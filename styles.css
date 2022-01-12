@@ -12,7 +12,7 @@
 
 .side-bar {
   flex: 12;
-  
+  flex-direction: column;
   border-right: 1px solid black;
 }
 
