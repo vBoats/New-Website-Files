@@ -39,11 +39,14 @@ h2 {
   flex: 88;
   background-color: #FFFFFF;
 }
+
+
+
+
 .survey {
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .bottom-of-survey {
   flex: 1;
@@ -55,9 +58,7 @@ h2 {
   font-family: serif;
   font-style: italic;
 }
-.buttons {
-
-}
+.buttons { }
 .button {
   background-color: #04AA6D;
   border: none;
@@ -72,3 +73,25 @@ h2 {
 .button1 { border-radius: 4px; }
 .button2 { border-radius: 4px; }
 .button3 { border-radius: 50%; }
+
+
+
+
+.composer-name {
+  font-size: 40px;
+  font-family: serif;
+  font-style: italic;
+}
+.composer-history {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: serif;
+  font-style: italic;
+}
+.composer-image {
+
+}
+.composer {
+  margin-left: 50px;
+  margin-top: 30px;
+}
