@@ -82,16 +82,17 @@ h2 {
   font-family: serif;
   font-style: italic;
 }
-.composer-history {
+.composer-image {
   margin-top: 20px;
+}
+.composer-history {
+  margin-top: 5px;
   font-size: 16px;
   font-family: serif;
   font-style: italic;
 }
-.composer-image {
-
-}
 .composer {
   margin-left: 50px;
   margin-top: 30px;
+  margin-bottom: 70px;
 }
