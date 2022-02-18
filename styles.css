@@ -1,12 +1,14 @@
 * {
-  margin 0;
-  padding 0;
+  margin: 0;
+  padding: 0;
   font-family: Courier New;
 }
 h2 {
+  display: flex;
   color: #000000;
   font-size: 20px;
 }
+
 .main {
   display: flex;
   flex-direction: row;
@@ -20,16 +22,32 @@ h2 {
   flex-direction: column;
   border-right: 2px solid black;
 }
-
+a { text-decoration: none; }
+a:visited { color: #DD0000; }
+a:hover {color: black; }
+a:link {color: #DD0000; }
+a:focus {color: #DD0000; }
+a:active {color: #DD0000; }
 .link {
+  display: flex;
   flex: 10;
   border-top: 2px solid black;
+  justify-content: center;
+  align-items: center;
 }
-
+.top-link {
+  display: flex;
+  flex: 10;
+  justify-content: center;
+  align-items: center;
+}
 .bottom-link {
+  display: flex;
   flex: 10;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  justify-content: center;
+  align-items: center;
 }
 .rest-of-side-bar {
   flex: 120;
@@ -39,7 +57,22 @@ h2 {
   flex: 88;
   background-color: #FFFFFF;
 }
-
+.home-page-message {
+  text-align:left;
+  margin-top: 150px;
+  margin-left: 200px;
+  width: 1000px;
+  font-size: 24px;
+  font-style: normal;
+  font-family: serif;
+}
+.home-page-title {
+  font-size: 50px;
+  font-style: italic;
+  font-family: serif;
+  margin-left: 315px;
+  margin-top: 40px;
+}
 
 
 
