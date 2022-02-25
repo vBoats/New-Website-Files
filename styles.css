@@ -7,6 +7,17 @@ h2 {
   display: flex;
   color: #000000;
   font-size: 20px;
+  font-style: italic;
+  font-family: serif;
+}
+h3 {
+  display: flex;
+  color: #000000;
+  font-size: 12px;
+  margin-left: 50px;
+  font-style: italic;
+  font-family: serif;
+
 }
 
 .main {
@@ -49,6 +60,7 @@ a:active {color: #DD0000; }
   justify-content: center;
   align-items: center;
 }
+.sub-link {}
 .rest-of-side-bar {
   flex: 120;
 }
