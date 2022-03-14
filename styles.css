@@ -160,7 +160,15 @@ a:active {color: #DD0000; }
   font-style: italic;
 }
 
-
+.ytVid {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.ytVidTitle {
+  font-size: 40px;
+  font-family: serif;
+  font-style: italic;
+}
 
 .recommendation {
   font-size: 30px;
